@@ -4,6 +4,8 @@
 
 netrw
 Unimpared plugin
+fugitive
+
 2-1. The Vim Way
 2-3. Insert mode 
 2-4. Visual mode 
@@ -91,6 +93,29 @@ qb        //список закладок
 ]t         // :tnext        (след. в tag-list)
 [T         // :tfirst       (перв. в tag-list)
 ]T         // :tlast        (посл. в tag-list)
+//..to be continued
+
+
+
+//--------------------------------------------------------------------------------------
+// `` fugitive
+//--------------------------------------------------------------------------------------
+
+:Gstatus                //git status
+//В окне git status
+-             // :Git add | :Git reset (staged files)
+D             // git diff vertical split
+dv            // git diff vertical split
+ds            // git diff horizontal split
+dp            // git unified diff
+O             // :Gtabedit
+o             // :Gsplit
+S             // :Gvsplit
+q             // close status
+R             // reload status
+cc            // :Gcommit
+
+:Glog         // загружает все изменения файла в quickfix
 //..to be continued
 
 
